@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="TestResize.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestResize"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Background="Blue" Margin="0,0,0,65">
+            <Grid Margin="0,60,0,60" Background="Green">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0" Background="Pink"></Grid>
+                    <Grid Grid.Column="1" Background="Honeydew"></Grid>
+                    <Grid Grid.Column="2" Background="Aquamarine"></Grid>
+                    <Grid Grid.Column="3" Background="Purple"></Grid>
+                    <Grid Grid.Column="4" Background="Plum"></Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Background="Red" Margin="0,0,0,0" Height="65" VerticalAlignment="Bottom">
+            
+        </Grid>
+    </Grid>
+</Page>
